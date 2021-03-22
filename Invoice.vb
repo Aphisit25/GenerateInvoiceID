@@ -13,3 +13,6 @@
         read_gen.Close()
         txtAutoID.Text = id_temp
     End Sub
+
+
+'Format(CStr(Mid(dr, 2, 6)) + 1, "E00000#") or Format(CInt(Mid(dr, 2, 6)) + 1, "E00000#")
